@@ -8,11 +8,12 @@
 </head>
 <body>
 <% 
-	String str="홍길동";
+	String str="테스트";
 	//document.write("str=>"+str);
 	System.out.println("str=>"+str);//콘솔에 출력(디버깅)에러검증
 	out.println("<h1>"+"str->"+str+"</h1>");//웹에출력
  %>
-<%=str%>
+<hr>
+ str의 값출력=<%=str %>
 </body>
 </html>
